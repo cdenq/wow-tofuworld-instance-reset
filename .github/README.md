@@ -1,3 +1,5 @@
+> **Tofu Worldview fork (branch `tofu`).** Changes from upstream: the greeting is `npc_text` 900000 (added by `data/sql/db-world/base/mod_instance_reset_tofu_2026_11_19.sql`) instead of a packet that overwrote the client's cached default gossip text (0xFFFFFF) used by many stock NPCs; new option text; English strings only; the reset also removes the instance saves of the playerbots in the player's group (random, addclass, and alt bots; never real players or SelfBots); the price is re-checked when the option is clicked. Requires mod-playerbots in the build.
+
 # ![logo](https://raw.githubusercontent.com/azerothcore/azerothcore.github.io/master/images/logo-github.png) AzerothCore
 
 ## mod-instance-reset
