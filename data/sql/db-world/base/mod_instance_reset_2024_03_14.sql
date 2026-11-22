@@ -3,7 +3,7 @@ SET
 @Entry      := 300000,
 @Model      := 24877,
 @Name       := "Cromi",
-@Title      := "Instance Reset";
+@Title      := "Instance Save Resetter";
 
 DELETE FROM `creature_template` WHERE `entry` = @Entry;
 
